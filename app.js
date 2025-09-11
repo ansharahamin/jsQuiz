@@ -73,4 +73,46 @@
 // console.log(title);
 
 // titleCase for sentence
-var sentence = "The quick brown fox jumps over the lazy dog"
+// var sentence = prompt("Enter a setence:","the quick brown fox jump over the lazy dog")
+// var result = ""
+// titleCase =  true
+// for(var i=0;i<sentence.length ; i++){
+//     if(titleCase){
+//         result += sentence[i].toUpperCase()
+//         titleCase = false
+//     }else{
+//         result+= sentence[i].toLowerCase()
+//     }
+//     if(sentence[i]===" "){
+//         result+=sentence[i].toUpperCase()
+//                 titleCase=true
+
+//     }
+// }
+// console.log(result);
+
+// var sentence = prompt("Enter a setence:","the quick brown fox jump over the lazy dog")
+// var words = sentence.split(" ")
+// console.log(words);
+// result = []
+// for (var i=0;i<words.length;i++){
+//    var  firstchar = words[i].slice(0,1)
+//    var otherchar =words[i].slice(1)
+//    var firstchar = firstchar.toUpperCase()
+//    var otherchar = otherchar.toLowerCase()
+//    result.push(firstchar + otherchar)
+
+// }
+// console.log("actual sentence: " + sentence );
+
+// console.log( "titleCase: " +  result.join(" "));
+
+// var name = "my name is Ansharah"
+// console.log(name.indexOf("name"));
+// console.log(name.charAt(5));
+ 
+var pallindrome= prompt("Enter a pallindrome to check","civic")
+var result = ""
+for(var i = 0;i<pallindrome.length;i++){
+    if(pallindrome[i])
+}
